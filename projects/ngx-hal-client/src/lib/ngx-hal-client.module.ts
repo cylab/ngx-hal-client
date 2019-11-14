@@ -3,12 +3,14 @@ import { ModuleWithProviders, NgModule } from '@angular/core';
 import { ExternalService } from './core/service/external.service';
 import { ResourceService } from './core/service/resource.service';
 
+export { ResourceService } from './core/service/resource.service';
 export { ExternalService } from './core/service/external.service';
 export { RestService } from './core/service/rest.service';
 export { Resource } from './core/model/resource';
 export { ResourceArray } from './core/model/resource-array';
 export { ResourcePage } from './core/model/resource-page';
 export { Sort, SortOrder } from './core/model/interface/sort';
+export { CacheHelper } from './core/cache/cache.helper';
 export { ResourceHelper } from './core/util/resource-helper';
 export { ExternalConfiguration } from './core/config/external-configuration';
 export { ExternalConfigurationHandlerInterface } from './core/config/external-configuration.handler';
